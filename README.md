@@ -1,7 +1,7 @@
 # else
 erl + lua server
 
-服务器框架用erlang写的，业务用lua，跨平台
+服务器框架用erlang写的，业务用lua，跨平台1
 
 1、为了一键部署：不用传统数据库，用文件代替
 
