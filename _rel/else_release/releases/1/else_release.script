@@ -1,4 +1,4 @@
-%% script generated at {2015,12,22} {15,25,9}
+%% script generated at {2015,12,22} {15,51,10}
 {script,
     {"else_release","1"},
     [{preLoaded,
@@ -41,7 +41,7 @@
           ranch_listener_sup,ranch_protocol,ranch_server,ranch_ssl,ranch_sup,
           ranch_tcp,ranch_transport]},
      {path,["$ROOT/lib/else-rolling/ebin"]},
-     {primLoad,[else_app,else_sup]},
+     {primLoad,[else_app,else_sup,player_protocol]},
      {progress,modules_loaded},
      {path,
          ["$ROOT/lib/kernel-2.16.4/ebin","$ROOT/lib/stdlib-1.19.4/ebin",
@@ -137,7 +137,7 @@
                   [{description,[]},
                    {vsn,"rolling"},
                    {id,[]},
-                   {modules,[else_app,else_sup]},
+                   {modules,[else_app,else_sup,player_protocol]},
                    {registered,[else_sup]},
                    {applications,[kernel,stdlib,ranch]},
                    {included_applications,[]},
