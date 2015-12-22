@@ -1,0 +1,6 @@
+[{release,"else_release","1","5.10.4",
+          [{kernel,"2.16.4","./lib/kernel-2.16.4"},
+           {stdlib,"1.19.4","./lib/stdlib-1.19.4"},
+           {ranch,"1.1.0","./lib/ranch-1.1.0"},
+           {else,"rolling","./lib/else-rolling"}],
+          permanent}].
