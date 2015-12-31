@@ -1,3 +1,3 @@
 PROJECT = else
-DEPS = ranch
+DEPS = ranch protobuffs
 include erlang.mk
